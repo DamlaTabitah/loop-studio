@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body {  
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .front{
+        width: 100%;
+        color: hsl(0, 0%, 100%);
+    }
+}
+@media (min-width: 768px) {
+    .funky h1{
+        font-family: Josefin Sans;
+        font-weight:300;
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        text-align:left;
+        margin-left: 30px;
+        margin-top: 30px;
+        border: 1px solid hsl(0, 0%, 100%);
+    }
+}
+@media (min-width: 768px) {
+    .funky{
+        width: 500px;
+        color:hsl(0, 0%, 100%);
+        
+        /* width: 450px; */
+        height: 200px;
+        margin-left: 270px;
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .food{
+        flex-wrap: wrap;
+        display: flex;
+        padding: 90px;
+    }
+}
+@media (min-width: 768px) {
+    .food img{
+        width: 100%;
+        flex-wrap: wrap;
+        display: block;
+        
+    }
+}
+/* @media (min-width: 768px) {
+    .dee{
+        flex-wrap: wrap;
+        display: flex;
+    }
+} */
+@media (min-width: 992px) {
+    footer{
+        width: 100% ;
+    }
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+a.active,a:hover{
+    border-bottom:3px solid hsl(0, 0%, 100%);
+    transition: all 0.5s ;
+}
+.zee img{
+    position: relative;
+    z-index: -1;
+}
+/* nav li {
+    display: block;
+}
+nav ul.show{
+
+} */
+.zee .mee {
+    margin-right: 200px;
+    float: right;
+    position: absolute;
+    right: -40px;
+    padding-left: 130px;
+    padding-top: 130px;
+    height: 400px;
+    
+    /* text-align: center; */
+    /* display: flex; */
+}
+.mee h1{
+    line-height: 40px;
+}
+@media (min-width: 768px) {
+    .zee{
+        display: flex;
+    }
+}
+
+.food .mee {
+    margin-right: 200px;
+    
+}
+.all h1{
+    position: relative;
+}
+.wee h1 {
+    position: absolute;
+    margin-top: -200px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 2rem;
+}
+@media (min-width: 768px) {
+    .all{
+        display: grid;
+        flex-wrap: wrap;
+        width: 100%;
+        grid-template-columns: 250px 250px 250px 250px;
+        /* grid-template-rows:50px 50px ; */
+        grid-gap: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        justify-content: center;
+        padding-bottom: 100px;
+       
+        
+    }
+}
